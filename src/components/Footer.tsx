@@ -1,5 +1,5 @@
 
-import { Cheese } from "lucide-react";
+import { Cookie } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           {/* Logo */}
           <div className="flex items-center mb-6 md:mb-0">
-            <Cheese className="h-8 w-8 text-cheese mr-2" />
+            <Cookie className="h-8 w-8 text-cheese mr-2" />
             <span className="font-bold text-xl">StickyCheeseWorks</span>
           </div>
           

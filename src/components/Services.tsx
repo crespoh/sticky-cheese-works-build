@@ -1,6 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Code, CircleDot, CakeSlice } from "lucide-react";
+import { Code, CircleDot, CakeSlice, BookOpen } from "lucide-react";
 
 const Services = () => {
   return (
@@ -81,7 +81,7 @@ const Services = () => {
           <Card className="border-cheese/20 hover:border-cheese transition-colors">
             <CardContent className="p-8">
               <div className="h-12 w-12 bg-cheese-light rounded-full flex items-center justify-center mb-4">
-                <BookText className="h-6 w-6 text-cheese-dark" />
+                <BookOpen className="h-6 w-6 text-cheese-dark" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Educational Products</h3>
               <p className="text-muted-foreground mb-4">

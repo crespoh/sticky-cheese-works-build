@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
-import { Cheese, Menu, X } from "lucide-react";
+import { Cookie, Menu, X } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="flex items-center space-x-2">
-          <Cheese className="h-8 w-8 text-cheese" />
+          <Cookie className="h-8 w-8 text-cheese" />
           <span className="font-bold text-xl md:text-2xl text-foreground">StickyCheeseWorks</span>
         </a>
 

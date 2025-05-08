@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Cheese } from "lucide-react";
+import { ArrowRight, Cookie } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -8,15 +8,15 @@ const Hero = () => {
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-cheese-pattern opacity-30"></div>
       
-      {/* Floating Cheese Icons */}
+      {/* Floating Cookie Icons */}
       <div className="absolute top-1/4 left-10 animate-float">
-        <Cheese className="h-12 w-12 text-cheese opacity-30" />
+        <Cookie className="h-12 w-12 text-cheese opacity-30" />
       </div>
       <div className="absolute top-1/2 right-10 animate-float" style={{ animationDelay: '2s' }}>
-        <Cheese className="h-16 w-16 text-cheese opacity-30" />
+        <Cookie className="h-16 w-16 text-cheese opacity-30" />
       </div>
       <div className="absolute bottom-1/4 left-1/3 animate-float" style={{ animationDelay: '1s' }}>
-        <Cheese className="h-10 w-10 text-cheese opacity-30" />
+        <Cookie className="h-10 w-10 text-cheese opacity-30" />
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
