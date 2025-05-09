@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -138,16 +137,6 @@ const ContactSection = () => {
                   <p>StickyCheeseWorks is a remote-first company,</p>
                   <p>with team members around the world.</p>
                 </div>
-              </div>
-              
-              <div className="bg-gradient-to-br from-cheese/20 to-cheese-dark/30 rounded-lg p-6">
-                <h4 className="font-medium mb-3">Working Hours</h4>
-                <p className="text-sm mb-2">
-                  <span className="font-medium">Monday-Friday:</span> 9:00 AM - 6:00 PM EST
-                </p>
-                <p className="text-sm">
-                  <span className="font-medium">Weekend:</span> By appointment only
-                </p>
               </div>
             </div>
           </div>
