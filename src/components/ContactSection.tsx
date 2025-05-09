@@ -34,10 +34,10 @@ const ContactSection = () => {
       };
 
       await emailjs.send(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        'service_80sqq9g', // Replace with your EmailJS service ID
+        'template_cd05uhw', // Replace with your EmailJS template ID
         templateParams,
-        'YOUR_PUBLIC_KEY' // Replace with your EmailJS public key
+        'w0MlFsW_wnXtqzpGc' // Replace with your EmailJS public key
       );
 
       toast({
