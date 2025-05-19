@@ -4,14 +4,14 @@ import { CircleCheck } from "lucide-react";
 
 const AboutUs = () => {
   return (
-    <section id="about" className="py-16 md:py-24 bg-cheese-light/50">
+    <section id="about" className="py-16 md:py-24 bg-gradient-to-b from-gray-light to-cheese-light/50">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* About Us Content */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">About StickyCheeseWorks</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">About Coded Cheese</h2>
             <p className="text-lg mb-6">
-              Founded with a passion for creating software that sticks with users, StickyCheeseWorks 
+              Founded with a passion for creating software that sticks with users, Coded Cheese 
               is a playful yet professional software development company specializing in educational 
               apps and innovative SAAS solutions.
             </p>
@@ -41,7 +41,7 @@ const AboutUs = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold mb-4">Our Core Values</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <Card className="border-cheese/20 cheese-shadow bg-background/70">
+              <Card className="border-cheese/20 cheese-shadow bg-gray-light/70">
                 <CardContent className="p-6">
                   <h4 className="font-semibold text-xl mb-2">Innovation</h4>
                   <p className="text-muted-foreground">
@@ -50,7 +50,7 @@ const AboutUs = () => {
                 </CardContent>
               </Card>
               
-              <Card className="border-cheese/20 cheese-shadow bg-background/70">
+              <Card className="border-cheese/20 cheese-shadow bg-gray-light/70">
                 <CardContent className="p-6">
                   <h4 className="font-semibold text-xl mb-2">Quality</h4>
                   <p className="text-muted-foreground">
@@ -59,7 +59,7 @@ const AboutUs = () => {
                 </CardContent>
               </Card>
               
-              <Card className="border-cheese/20 cheese-shadow bg-background/70">
+              <Card className="border-cheese/20 cheese-shadow bg-gray-light/70">
                 <CardContent className="p-6">
                   <h4 className="font-semibold text-xl mb-2">User Focus</h4>
                   <p className="text-muted-foreground">
@@ -68,7 +68,7 @@ const AboutUs = () => {
                 </CardContent>
               </Card>
               
-              <Card className="border-cheese/20 cheese-shadow bg-background/70">
+              <Card className="border-cheese/20 cheese-shadow bg-gray-light/70">
                 <CardContent className="p-6">
                   <h4 className="font-semibold text-xl mb-2">Fun</h4>
                   <p className="text-muted-foreground">

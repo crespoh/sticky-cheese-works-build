@@ -4,7 +4,7 @@ import { ArrowRight, Cookie } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-cheese-light py-16 md:py-24">
+    <section className="relative overflow-hidden bg-gradient-to-r from-gray-light to-cheese-light py-16 md:py-24">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-cheese-pattern opacity-30"></div>
       
@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="block">Sticky Ideas,</span>
+            <span className="block">Coded Ideas,</span>
             <span className="text-cheese-dark">Cheesy Solutions</span>
           </h1>
           <p className="text-lg md:text-xl mb-8">

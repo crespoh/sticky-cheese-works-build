@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -30,7 +31,7 @@ const ContactSection = () => {
         from_name: formData.name,
         from_email: formData.email,
         message: formData.message,
-        to_email: 'info@stickycheeseworks.com',
+        to_email: 'info@codedcheese.com',
       };
 
       await emailjs.send(
@@ -57,7 +58,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-16 md:py-24 bg-cheese-light/50">
+    <section id="contact" className="py-16 md:py-24 bg-gradient-to-t from-gray-light to-cheese-light/50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Get in Touch</h2>
@@ -69,7 +70,7 @@ const ContactSection = () => {
         
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="bg-background rounded-xl p-8 cheese-shadow">
+          <div className="bg-gray-light/80 rounded-xl p-8 cheese-shadow">
             <h3 className="text-xl font-semibold mb-4">Send us a message</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -141,8 +142,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium mb-1">Email</h4>
-                  <a href="mailto:info@stickycheeseworks.com" className="text-cheese-dark hover:underline">
-                    info@stickycheeseworks.com
+                  <a href="mailto:info@codedcheese.com" className="text-cheese-dark hover:underline">
+                    info@codedcheese.com
                   </a>
                   <p className="text-sm text-muted-foreground mt-1">
                     We respond to all inquiries within 24 hours
@@ -156,7 +157,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium mb-1">Location</h4>
-                  <p>StickyCheeseWorks is a remote-first company,</p>
+                  <p>Coded Cheese is a remote-first company,</p>
                   <p>with team members around the world.</p>
                 </div>
               </div>

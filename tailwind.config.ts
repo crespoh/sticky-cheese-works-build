@@ -68,6 +68,11 @@ export default {
 					DEFAULT: '#F9D923',
 					dark: '#F2C94C',
 					hover: '#F0BE0C'
+				},
+				gray: {
+					light: '#F1F1F1',
+					DEFAULT: '#C8C8C9',
+					dark: '#A9A9A9'
 				}
 			},
 			borderRadius: {

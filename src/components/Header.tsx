@@ -7,12 +7,12 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-md border-b border-cheese/20">
+    <header className="sticky top-0 z-50 w-full bg-gray-light/90 backdrop-blur-md border-b border-cheese/20">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="flex items-center space-x-2">
           <Cookie className="h-8 w-8 text-cheese" />
-          <span className="font-bold text-xl md:text-2xl text-foreground">StickyCheeseWorks</span>
+          <span className="font-bold text-xl md:text-2xl text-foreground">Coded Cheese</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -32,7 +32,7 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-background border-t border-cheese/20">
+        <div className="md:hidden bg-gray-light border-t border-cheese/20">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <a href="#about" className="text-foreground py-2 hover:text-cheese transition-colors" onClick={() => setIsMenuOpen(false)}>About</a>
             <a href="#apps" className="text-foreground py-2 hover:text-cheese transition-colors" onClick={() => setIsMenuOpen(false)}>Our Apps</a>
