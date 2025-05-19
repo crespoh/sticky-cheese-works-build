@@ -21,21 +21,23 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="block">Coded Ideas,</span>
-            <span className="text-cheese-dark">Cheesy Solutions</span>
-          </h1>
-          <p className="text-lg md:text-xl mb-8">
-            We craft delightful apps and SAAS solutions that stick with your users. 
-            From educational tools to business software, our cheese-powered team
-            delivers excellence with a smile.
-          </p>
+          <div className="bg-gray-light p-8 rounded-2xl shadow-[8px_8px_16px_#d1d1d1,-8px_-8px_16px_#ffffff] mb-8">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              <span className="block">Coded Ideas,</span>
+              <span className="text-cheese-dark">Cheesy Solutions</span>
+            </h1>
+            <p className="text-lg md:text-xl mb-8">
+              We craft delightful apps and SAAS solutions that stick with your users. 
+              From educational tools to business software, our cheese-powered team
+              delivers excellence with a smile.
+            </p>
+          </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-cheese hover:bg-cheese-hover text-lg px-6 py-6 h-auto">
+            <Button className="bg-cheese hover:bg-cheese-hover text-lg px-6 py-6 h-auto shadow-[5px_5px_10px_#d1d1d1,-5px_-5px_10px_#ffffff] rounded-xl transition-all hover:shadow-[2px_2px_5px_#d1d1d1,-2px_-2px_5px_#ffffff]">
               Explore Our Apps
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button variant="outline" className="border-cheese text-foreground hover:bg-cheese/10 text-lg px-6 py-6 h-auto">
+            <Button variant="outline" className="border-cheese text-foreground hover:bg-cheese/10 text-lg px-6 py-6 h-auto shadow-[5px_5px_10px_#d1d1d1,-5px_-5px_10px_#ffffff] rounded-xl transition-all hover:shadow-[2px_2px_5px_#d1d1d1,-2px_-2px_5px_#ffffff]">
               Learn More
             </Button>
           </div>
