@@ -23,6 +23,7 @@ const Header = () => {
           <a href="#apps" className="text-foreground px-4 py-2 rounded-lg hover:shadow-[inset_3px_3px_6px_#d1d1d1,inset_-3px_-3px_6px_#ffffff] transition-all duration-300">Our Apps</a>
           <a href="#services" className="text-foreground px-4 py-2 rounded-lg hover:shadow-[inset_3px_3px_6px_#d1d1d1,inset_-3px_-3px_6px_#ffffff] transition-all duration-300">Services</a>
           <a href="#contact" className="text-foreground px-4 py-2 rounded-lg hover:shadow-[inset_3px_3px_6px_#d1d1d1,inset_-3px_-3px_6px_#ffffff] transition-all duration-300">Contact</a>
+          <a href="/privacy-policy" className="text-foreground px-4 py-2 rounded-lg hover:shadow-[inset_3px_3px_6px_#d1d1d1,inset_-3px_-3px_6px_#ffffff] transition-all duration-300">Privacy Policy</a>
           <Button className="bg-cheese shadow-[4px_4px_8px_#d1d1d1,-4px_-4px_8px_#ffffff] hover:shadow-[2px_2px_4px_#d1d1d1,-2px_-2px_4px_#ffffff] text-cheese-foreground hover:bg-cheese-hover ml-2 rounded-xl">Get Started</Button>
         </nav>
 
@@ -43,6 +44,7 @@ const Header = () => {
             <a href="#apps" className="text-foreground py-3 px-4 rounded-lg hover:shadow-[inset_3px_3px_6px_#d1d1d1,inset_-3px_-3px_6px_#ffffff] transition-all duration-300" onClick={() => setIsMenuOpen(false)}>Our Apps</a>
             <a href="#services" className="text-foreground py-3 px-4 rounded-lg hover:shadow-[inset_3px_3px_6px_#d1d1d1,inset_-3px_-3px_6px_#ffffff] transition-all duration-300" onClick={() => setIsMenuOpen(false)}>Services</a>
             <a href="#contact" className="text-foreground py-3 px-4 rounded-lg hover:shadow-[inset_3px_3px_6px_#d1d1d1,inset_-3px_-3px_6px_#ffffff] transition-all duration-300" onClick={() => setIsMenuOpen(false)}>Contact</a>
+            <a href="/privacy-policy" className="text-foreground py-3 px-4 rounded-lg hover:shadow-[inset_3px_3px_6px_#d1d1d1,inset_-3px_-3px_6px_#ffffff] transition-all duration-300" onClick={() => setIsMenuOpen(false)}>Privacy Policy</a>
             <Button className="bg-cheese shadow-[4px_4px_8px_#d1d1d1,-4px_-4px_8px_#ffffff] hover:shadow-[2px_2px_4px_#d1d1d1,-2px_-2px_4px_#ffffff] text-cheese-foreground hover:bg-cheese-hover rounded-xl">Get Started</Button>
           </div>
         </div>
