@@ -33,7 +33,10 @@ const Hero = () => {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-cheese hover:bg-cheese-hover text-lg px-6 py-6 h-auto shadow-[5px_5px_10px_#d1d1d1,-5px_-5px_10px_#ffffff] rounded-xl transition-all hover:shadow-[2px_2px_5px_#d1d1d1,-2px_-2px_5px_#ffffff]">
+            <Button 
+              className="bg-cheese hover:bg-cheese-hover text-lg px-6 py-6 h-auto shadow-[5px_5px_10px_#d1d1d1,-5px_-5px_10px_#ffffff] rounded-xl transition-all hover:shadow-[2px_2px_5px_#d1d1d1,-2px_-2px_5px_#ffffff]"
+              onClick={() => window.location.href = '/apps'}
+            >
               Explore Our Apps
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
