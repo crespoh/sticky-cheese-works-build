@@ -60,6 +60,30 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
+## Supabase Auth & Netlify setup
+
+- Create `.env` locally from `.env.example` and set:
+  - `VITE_SUPABASE_URL`
+  - `VITE_SUPABASE_ANON_KEY`
+- In Netlify Site settings → Build & deploy → Environment, set the same vars.
+- Supabase Dashboard:
+  - Site URL: `https://codedcheese.com`
+  - Redirect allow-list: `https://codedcheese.com/auth/callback`
+  - Enable email confirmations
+- Netlify SPA fallback & headers are configured in `netlify.toml`.
+
+### Test plan
+
+1) Local
+   - `npm run dev`
+   - Visit `/login`, request a magic link
+   - Click the email link; it should land on `/auth/callback`, then redirect to `/app`
+   - Confirm protected route works; sign out and verify redirect to `/login`
+
+2) Netlify
+   - Deploy and open `https://codedcheese.com/app` directly (fresh tab). It should render the SPA due to the fallback redirect
+   - Confirm env vars are injected and auth works end-to-end
+
 ## How can I deploy this project?
 
 Simply open [Lovable](https://lovable.dev/projects/ced8d9b9-6ed2-4c5e-85bb-34b34fcac168) and click on Share -> Publish.
